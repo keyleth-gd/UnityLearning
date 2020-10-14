@@ -18,13 +18,13 @@ To prevent the character to fall through the scene you will need to do one of th
 
 | Change the **Body Type** from `Dynamic` to `Kinematic` | Change the **Gravity Scale** to 0         |
 | ------------------------------------------------------ | ----------------------------------------- |
-| ![](media\gifs\rb-dynamic-to-kinematic.gif)            | ![](media\gifs\rb-gravity-scale-to-0.gif) |
+| ![](media/gifs/rb-dynamic-to-kinematic.gif)            | ![](media/gifs/rb-gravity-scale-to-0.gif) |
 
 ##### Prevent character from spinning
 
 Another useful thing to do is to prevent rotation in the Z-axis. When using collision between objects your character may start to spin, if you don't want this, then check the `Z checkbox` in the **Freeze Rotation** on the **Constraints** section of the **RigidBody2D** component.
 
-![](media\gifs\rb-freeze-rotation.gif)
+![](media/gifs/rb-freeze-rotation.gif)
 
 ### In Visual Studio
 
